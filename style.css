@@ -18,6 +18,11 @@ header {
   background-color: black;
 }
 
+header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
 nav {
   text-align: center;
   font-variant: small-caps;
