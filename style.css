@@ -98,6 +98,10 @@ blockquote {
   font-size: 1.5em;
 }
 
+.trivia a {
+  color: white;
+}
+
 table {
   border: 1px solid #888888;
   border-collapse: collapse;
@@ -116,6 +120,20 @@ th {
 
 tr:nth-child(odd) {
   background-color: rgba(128, 128, 128, 0.25);
+}
+
+.space {
+  background-image: url("images/glitteringstarbg2.gif"),
+    linear-gradient(black, #000099, #66c2ff);
+  background-color: black;
+  background-blend-mode: screen;
+  max-width: 100%;
+}
+
+.haiku {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 footer {
